@@ -19,7 +19,8 @@ const Watch = () => {
         items-center
         gap-8
         bg-black
-        bg-opacity-70"
+        bg-opacity-70
+        cursor-pointer"
       >
         <AiOutlineArrowLeft
           onClick={() => router.push("/")}
